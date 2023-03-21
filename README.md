@@ -1,5 +1,5 @@
-# example bndtools eclipse workspace
-This repository contains an example workspace including minimal repositories for development of eclipse products.
+# Klibio Workspace with Project Templates
+This repository contains a workspace based on our workspace template and with the Klibio bndtools project templates.
 
 ## Build the jar
 
