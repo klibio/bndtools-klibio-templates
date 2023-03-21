@@ -8,4 +8,5 @@ Archive
 /reports/
 /generated/
 .to
-
+target/
+.settings/
