@@ -1,4 +1,4 @@
-package example.rcp.headless;
+package $basePackageName$;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
