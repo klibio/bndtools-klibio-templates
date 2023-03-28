@@ -6,7 +6,7 @@ Archive
 .*.swp
 /.gradle/
 /reports/
-/generated/
+*/generated/
 .to
 target/
 .settings/
