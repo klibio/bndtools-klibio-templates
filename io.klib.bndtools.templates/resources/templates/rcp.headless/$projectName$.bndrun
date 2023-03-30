@@ -7,6 +7,10 @@
     \
     eclipse.application=$basePackageName$.application
 
+-runrequires: \
+	bnd.identity;id='$basePackageName$';version='[0.1.0,1.0.0)',\
+	bnd.identity;id='bndtools.runtime.applaunch.eclipse4';version='[0.1.0,1.0.0)'
+
 -runbundles: \
 	bndtools.runtime.applaunch.eclipse4;version='[0.1.0,0.1.1)',\
 	$basePackageName$;version=snapshot,\
