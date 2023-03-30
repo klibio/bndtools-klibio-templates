@@ -1,4 +1,4 @@
--runee: JavaSE-11
+-runee: JavaSE-17
 -runfw: org.eclipse.osgi;version='[3.16,4)'
 
 -runproperties: \
@@ -6,10 +6,6 @@
     launch.storage.dir=_rt/cfg,\
     \
     eclipse.application=$basePackageName$.application
-
--runrequires: \
-	bnd.identity;id='$basePackageName$';version='[0.1.0,1.0.0)',\
-	bnd.identity;id='bndtools.runtime.applaunch.eclipse4';version='[0.1.0,1.0.0)'
 
 -runbundles: \
 	bndtools.runtime.applaunch.eclipse4;version='[0.1.0,0.1.1)',\

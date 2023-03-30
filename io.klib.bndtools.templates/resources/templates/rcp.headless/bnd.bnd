@@ -4,7 +4,7 @@
 	
 -includeresource: ./root/
 
-Bundle-SymbolicName: ${project.name};singleton:=true
-Bundle-Version: 0.1.0.${tstamp;yyyyMMdd-HHmmss}
+Bundle-SymbolicName: \${project.name};singleton:=true
+Bundle-Version: 0.1.0.\${tstamp;yyyyMMdd-HHmmss}
 
 Private-Package: $basePackageName$
